@@ -1,0 +1,25 @@
+# Credenciales y datos locales (NUNCA subir)
+wifi.txt
+secrets.*
+*.local.*
+
+# Grabaciones y videos (pesados / personales -> van a YouTube, no al repo)
+*.mkv
+*.mp4
+*.avi
+*.mov
+
+# Herramientas binarias (ver docs/INSTALL.md para versiones y descarga)
+tools/
+
+# Artefactos de compilacion de Arduino
+build/
+*.bin
+*.elf
+*.hex
+*.map
+
+# Temporales
+*.tmp
+*.log
+__pycache__/
